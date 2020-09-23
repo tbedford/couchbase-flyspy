@@ -53,7 +53,7 @@ def get_events_with_severity(severity):
     events = []
     for row in rows:
       pprint(row)
-      events.append(row)
+      events.append(row['flyspy'])
     return (jsonify(events), headers)
 
 # Get all events  
@@ -65,7 +65,7 @@ def get_events():
     events = []
     for row in rows:
       pprint(row)
-      events.append(row)
+      events.append(row['flyspy'])
     return(jsonify(events), headers)
   
 ## Application-level webhooks
