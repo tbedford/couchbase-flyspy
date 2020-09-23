@@ -11,5 +11,5 @@ Photos of environmental events can be photographed and submitted via Facebook Me
 
 ## See also
 
-This is based on an earlier version that used TinyDB and that was developed as part of a Vongae Hackday. That project can be found [here](https://github.com/nexmo-community/flyspy).
+This is based on an earlier version that used TinyDB and that was developed as part of a Vonage Hackday. That project can be found [here](https://github.com/nexmo-community/flyspy).
 
