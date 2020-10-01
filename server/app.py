@@ -93,13 +93,13 @@ def inbound():
                 obj = {'location': location, 'url': url, 'description': description, 'severity': severity }
                 upsert_document(cb_coll, obj)
                 url = None
-    return (jsonify(data))
+    return ("OK")
 
 @app.route("/webhooks/status", methods=['POST'])
 def status():
     data = request.get_json()
     pprint(data) 
-    return (jsonify(data))
+    return ("OK")
 
 if __name__ == "__main__":
     print("Running locally")
